@@ -586,8 +586,10 @@ var collection = {
     {% if settings.collection_swatches %}
       if ($(window).width() >= 768) {
         if($('.thumbnail').hasClass('beta')) {
+          
+          $('.beta').removeClass('offset-by-one');
           $('.beta').removeClass('ten');
-          $('.beta').addClass('four');
+          $('.beta').addClass('three');
         }
         $('.thumbnail').hover(function() {
           $('.swatch span', $(this)).each(function() {
