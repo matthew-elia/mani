@@ -5055,3 +5055,35 @@ Copyright (c) 2013 Daniel Eden
     cursor:pointer;
   }
 }
+
+#popoverWrapper {
+  position: absolute;
+  z-index: 2;
+  padding-top: 0 !important;
+  padding:2px !important;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  left: 80px !important;
+  top: 180px;
+  
+  #popoverArrow, #popoverBack, #popoverBackIcon {
+    display: none;
+  }
+  #popoverClose {
+    position: absolute;
+    top:2px;
+    right:2px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  #popoverContent {
+    padding-top:5px !important;
+  }
+}
+
+.margin-top-lg {
+  margin-top: 100px;
+}

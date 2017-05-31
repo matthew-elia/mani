@@ -2355,7 +2355,7 @@
           "logo": "shopify:\/\/shop_images\/ammanii-logo-cropped.png",
           "logo_home": "",
           "logo_mobile": "",
-          "logo_width": "120",
+          "logo_width": "145",
           "main_linklist": "main-menu",
           "dropdown_column_links": "10",
           "logo_top_padding": "6",
@@ -2428,7 +2428,7 @@
       "1482528454151": {
         "type": "featured-collection",
         "settings": {
-          "title": "Featured collection",
+          "title": "Featured Products",
           "frontpage_collection": "sample-collection",
           "frontpage_products_per_row": "3",
           "frontpage_products_limit": "12",
@@ -2465,7 +2465,7 @@
           "text_position": "center",
           "text_align": "center",
           "button_label": "Discover The Collections",
-          "link": "shopify:\/\/collections"
+          "link": "shopify:\/\/pages\/lookbook-1"
         }
       },
       "list-collections-template": {
@@ -2473,6 +2473,17 @@
         "settings": {
           "collections_per_row": "3",
           "pagination_limit": "24"
+        }
+      },
+      "search-template": {
+        "type": "search-template",
+        "settings": {
+          "products_per_row": "2",
+          "pagination_limit": "24",
+          "blog_author": false,
+          "read_more_link": true,
+          "blog_date": true,
+          "toggle": false
         }
       }
     },

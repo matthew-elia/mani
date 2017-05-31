@@ -586,10 +586,11 @@ var collection = {
     {% if settings.collection_swatches %}
       if ($(window).width() >= 768) {
         if($('.thumbnail').hasClass('beta')) {
-          
-          $('.beta').removeClass('offset-by-one');
-          $('.beta').removeClass('ten');
-          $('.beta').addClass('three');
+          $('.beta').removeClass('six');
+          $('.beta').removeClass('margin-top-lg');
+          $('.beta').removeClass('offset-by-two');
+          $('.beta').addClass('offset-by-one');
+          $('.beta').addClass('four');
         }
         $('.thumbnail').hover(function() {
           $('.swatch span', $(this)).each(function() {

@@ -106,7 +106,17 @@
         <script id="dsq-count-scr" src="//{{ settings.disqus_shortname }}.disqus.com/count.js" async></script>
       {% endif %}
     {% endif %}
-    <script type="text/javascript" src="{{ 'popover.js.liquid' | asset_url }}">
+    <script type="text/javascript" src="{{ 'popover.js' | asset_url }}"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#Map").optionsPopover({
+          id: "Map",
+          title: "Hoop Earring",
+          contents: [
+              {"name": "<img src='https://cdn.shopify.com/s/files/1/1997/2555/files/HoopEarringThumb.png?17571941621221020099'  width='auto' style='margin:20px;margin-bottom:0;height:200px !important;' /><div style='margin:20px'><b>Price: $400</b><br><button>Add to Cart</button></div>", id: "m2"}
+          ]
+        });
+      });
     </script>
   </body>
 </html>
