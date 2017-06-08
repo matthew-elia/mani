@@ -2452,7 +2452,7 @@
         "settings": {
           "instagram_client_id": "1700359591.d90570a.944e29f6e8a54e9a9742c2054c48f51c",
           "title": "Instagram",
-          "instagram_count": "1"
+          "instagram_count": "2"
         }
       },
       "1495103952002": {
@@ -2485,12 +2485,25 @@
           "blog_date": true,
           "toggle": false
         }
+      },
+      "1496961127352": {
+        "type": "featured-text",
+        "settings": {
+          "image": "",
+          "title": "Talk about your brand",
+          "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+          "text_size": "regular_text",
+          "text_alignment": "center",
+          "button_label": "",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
       "1495103952002",
       "1482528409773",
       "1482528454151",
+      "1496961127352",
       "1494965658680"
     ]
   }
